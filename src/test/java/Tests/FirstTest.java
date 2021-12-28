@@ -1,6 +1,5 @@
 package Tests;
 
-import Tests.Component;
 import io.qameta.allure.*;
 import org.testng.annotations.Test;
 
@@ -11,8 +10,8 @@ public class FirstTest {
     @Story("")
     @Owner("")
     @Manual()
-    @Test
     @Tag("")
+    @Test
     @AllureId("")
     public static void first_test() {
         Allure.step("step one");
