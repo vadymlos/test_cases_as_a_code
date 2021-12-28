@@ -12,7 +12,7 @@ public class FirstTest {
     @Owner("")
     @Manual()
     @Test
-//    @Tag("")
+    @Tag("")
     @AllureId("")
     public static void first_test() {
         Allure.step("step one");
