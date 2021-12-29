@@ -127,7 +127,35 @@ If you clone with SSH, you must generate SSH keys on each computer you use to pu
 `File README.md` - description of creating and using of the project.
 
 ## 6. Customization allure testOps
+### 6.1 Install plugin Allure TestOps
+File -> Setting...
 
+Choose allure TestOps Support
+![image Arch-Test](./assets/images/allure_testops.png)
+### 6.2 Plug-in connection settings
+
+Plug-in connection settings
+
+    Go to Tools -> Allure -> Authorize
+  - Provide Allure TestOps URL
+  - Provide personal access token
+  - Click OK
+
+![image Arch-Test](./assets/images/plug_in_allure.png)
+
+If there is no error message, then authentication is completed and you can start using the integration.
+
+![image Arch-Test](./assets/images/auth_allure_testops.png)
+
+### 6.3 Upload test results to Allure TestOps from IntelliJ IDEA
+1. Run tests on your development environment, i.e. on your local machine.
+2. Select folder with allure results in the project tree and then right click the folder.
+3. In the context menu select Upload Results to Allure
+![image Arch-Test](./assets/images/allure_results.png)
+4. Select a Project to sent the test results and name your launch
+![image Arch-Test](./assets/images/upload_result_to_allure.png)
+5. The results will be available in the Allure TestOps in section Launches of the project selected in step 4.
+![image Arch-Test](./assets/images/allure_run.png)
 
 
 
