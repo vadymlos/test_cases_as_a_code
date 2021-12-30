@@ -205,11 +205,17 @@ This authentication token will be used by Jenkins to authenticate in Allure Test
 3. In the context menu select Upload Results to Allure
 ![image Arch-Test](./assets/images/allure_results.png)
 4. Select a Project to sent the test results and name your launch
-![image Arch-Test](./assets/images/upload_result_to_allure.png)
+![image Arch-Test](./assets/images/project_and_run_allure.png)
 5. The results will be available in the Allure TestOps in section Launches of the project selected in step 4.
 ![image Arch-Test](./assets/images/allure_run.png)
 
-### 6.4 
+### 6.4 Launches in allure
+
+1. Open launches in JSFiller project.
+2. Click on your previous uploaded result.
+3. Click on your test and see details.
+
+![image Arch-Test](./assets/images/test_case_from_code.png)
 
 
 

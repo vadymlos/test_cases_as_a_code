@@ -11,7 +11,7 @@ public class ManualChangeItemPositionInDropdownTest {
     @Owner("Vadym Los")
     @Manual()
     @Tag("DROPDOWN FILED")
-    @Test()
+    @Test(description = "Item of dropdown fillable field change position after dra&drop")
     @AllureId("2005")
     public static void user_can_change_position_of_item() {
         Allure.step("Open constructor");
