@@ -1,10 +1,20 @@
 ## 1. Creating a project for writing test cases as code
 
 ### 1.1. Install Java 17 on windows
-Step 1 - Download JDK 17
+#### Step 1 - Download JDK 17
 
 
-Step 2 - Install JDK
+#### Step 2 - Install JDK
+1. Now execute the JDK installer by double-clicking it. It might ask system permission before starting the installation. Click on yes to allow the installer to execute itself. It shows the installer welcome screen.
+2. Click the Next Button to initiate the installation process. The next screen shows options to change the installation path. We can change the installation location on this screen if required.
+3. Now click the Next Button to start the installation. It will show the progress.
+4. It shows the success screen after completing the installation.
+![image Arch-Test](./assets/images/succes_screen_jdk.png)
+5. Now open the Command Prompt and type the command java -version to confirm whether it's installed successfully.
+![image Arch-Test](./assets/images/command_prompt.png)
+6. It might show the message - java is not recognized as an internal or external command or show the previously installed version. In order to start using the JDK installed by us from the command prompt, we might be required to set the environment variable. You can follow the below-mentioned steps to do so.
+
+`Right Click -> My Computer(This PC) -> Properties -> Advanced System Settings`
 
 ## 2. Install intellij idea
 IntelliJ IDEA is a cross-platform IDE that provides consistent experience on the Windows, macOS, and Linux operating systems.
@@ -147,7 +157,17 @@ If there is no error message, then authentication is completed and you can start
 
 ![image Arch-Test](./assets/images/auth_allure_testops.png)
 
-### 6.3 Upload test results to Allure TestOps from IntelliJ IDEA
+### 6.3 Generate secret token on Allure TestOps side
+This authentication token will be used by Jenkins to authenticate in Allure TestOps server.
+
+1. Log in to Allure TestOps with dedicated account you are going to use to upload test results. That could be your profile as well.
+2. Go to user’s profile.
+
+![image Arch-Test](./assets/images/profile_token.png)
+3. In the section API tokens click a green button that says Create.
+4. Name your API token and click Submit. Always give meaningful names to all the configuration.
+5. Copy the token and save it in a safe place as it cannot be retrieved by Allure TestOps means.
+### 6.4 Upload test results to Allure TestOps from IntelliJ IDEA
 1. Run tests on your development environment, i.e. on your local machine.
 2. Select folder with allure results in the project tree and then right click the folder.
 3. In the context menu select Upload Results to Allure
@@ -157,7 +177,7 @@ If there is no error message, then authentication is completed and you can start
 5. The results will be available in the Allure TestOps in section Launches of the project selected in step 4.
 ![image Arch-Test](./assets/images/allure_run.png)
 
-
+### 6.4 
 
 
 

@@ -1,7 +1,6 @@
 package Tests;
 
-
-import org.testng.annotations.Test;
+import io.qameta.allure.LabelAnnotation;
 
 import java.lang.annotation.*;
 
@@ -9,6 +8,7 @@ import java.lang.annotation.*;
 @Inherited
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ElementType.METHOD, ElementType.TYPE})
-public @interface Component {
+@LabelAnnotation(name = "tag")
+public @interface Tag {
     String value();
 }
