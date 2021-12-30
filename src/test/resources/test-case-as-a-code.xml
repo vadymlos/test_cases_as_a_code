@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="'test-case-as-a-code suite' tests">
+<!--    <listeners>-->
+<!--        <listener class-name="qa.jsfiller.pdffiller.editor.ui.tests.utils.listeners.DownloadAllJsfExpectedContentAndImageFiles"/>-->
+<!--        <listener class-name="qa.jsfiller.helper.utils.listeners.PrometheusListener"/>-->
+<!--    </listeners>-->
+
+    <test name="'test-case-as-a-code suite' tests">
+        <classes>
+            <class name="Tests.ManualChangeItemPositionInDropdownTest"/>
+        </classes>
+    </test>
+</suite>
