@@ -10,3 +10,4 @@ target
 .idea/**/workspace.xml
 test-case-as-a-code.iml
 assets
+allure-results
