@@ -14,8 +14,15 @@ public class ManualChangeItemPositionInDropdownTest {
     @Test()
     @AllureId("2005")
     public static void user_can_change_position_of_item() {
-        Allure.step("");
-        Allure.step("step two");
-        Allure.step("step three");
+        Allure.step("Open constructor");
+        Allure.step("Add dropdown fillable field");
+        Allure.step("Add three item 'test1', 'test2', 'test3' to dropdown");
+        Allure.step("Click button 'Save'");
+        Allure.step("In editor click on dropdown field and check that three items is shown in wizard");
+        Allure.step("Open constructor again");
+        Allure.step("Click on dropdown fillable field");
+        Allure.step("Change position of item 'test1' by drag&drop to second position");
+        Allure.step("Click button 'Save'");
+        Allure.step("In editor click on dropdown field and check that item 'test1' on first position and item 'item2' on first position");
     }
 }

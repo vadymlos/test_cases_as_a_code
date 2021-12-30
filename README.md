@@ -1,10 +1,10 @@
 ## 1. Creating a project for writing test cases as code
 
-### 1.1. Install Java 17 on windows
-#### Step 1 - Download JDK 17
+### 1.1. Install Java 17 
+#### 1.2 - Download JDK 17
+Open the browser and search for Download JDK 17.
 
-
-#### Step 2 - Install JDK
+####  1.3 - Install JDK on windows
 1. Now execute the JDK installer by double-clicking it. It might ask system permission before starting the installation. Click on yes to allow the installer to execute itself. It shows the installer welcome screen.
 2. Click the Next Button to initiate the installation process. The next screen shows options to change the installation path. We can change the installation location on this screen if required.
 3. Now click the Next Button to start the installation. It will show the progress.
@@ -15,6 +15,38 @@
 6. It might show the message - java is not recognized as an internal or external command or show the previously installed version. In order to start using the JDK installed by us from the command prompt, we might be required to set the environment variable. You can follow the below-mentioned steps to do so.
 
 `Right Click -> My Computer(This PC) -> Properties -> Advanced System Settings`
+
+7. The above steps will open the Windows settings panel.
+![image Arch-Test](./assets/images/system_properties.png)
+
+8. Now click the Environment Variables Button, select Path under the System Variables section, and click the Edit Button. We need to add the path of installed JDK to the system Path.
+
+Notes: `The installer might add the path to System Path. We can delete it`
+![image Arch-Test](./assets/images/system_path.png)
+
+9. Remove the path of the previously installed JDK. Also, update JAVA_HOME in case it's already set. Now click on New Button and add the path to the installed JDK bin which is C:\java\oracle\jdk-17\bin in my case as shown in Fig 9. Press the OK Button 3 times to close all the windows. This sets the JDK 17 on system environment variables to access the same from the console.
+![image Arch-Test](./assets/images/edit_env_var.png)
+
+10. Now again open the console and test the Java version.
+![image Arch-Test](./assets/images/console_end.png)
+
+####  1.3 - Install JDK on Mac
+
+1. Double click the DMG file downloaded to start installing Oracle JDK 17 on Mac. It will mount the DMG disk and shows the installer. Make sure that you have gone through the updated License Agreement of Oracle JDK.
+2. Now double-click the installer to start installing Java 17 on Mac. The installer shows the Welcome Screen.
+3. Click the Continue Button to start the installation. It provides options to choose the installation type.
+4. You may change the installation location by clicking the Go Back Button. It did not allow me to change the installation location on macOS Catalina. Now click the Install Button to start installing Java 17 on Mac. It also asks for permission to complete the installation.
+![image Arch-Test](./assets/images/mac_intaller.png)
+5. It shows the success message after completing the installation.
+6. Now unmount the DMG image by right-clicking it.
+
+![image Arch-Test](./assets/images/dmg_image.png)
+
+7. We can check the JDK version to confirm the installation.
+
+![image Arch-Test](./assets/images/check_jdk_on_mac.png)
+
+Note: `This is all about installing Oracle JDK 17 on Mac systems including macOS Sierra, High Sierra, Mojave, Catalina, and Big Sur.`
 
 ## 2. Install intellij idea
 IntelliJ IDEA is a cross-platform IDE that provides consistent experience on the Windows, macOS, and Linux operating systems.
