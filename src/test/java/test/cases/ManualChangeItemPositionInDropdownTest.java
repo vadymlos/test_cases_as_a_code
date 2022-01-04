@@ -1,4 +1,4 @@
-package Tests;
+package test.cases;
 
 import io.qameta.allure.*;
 import org.testng.annotations.Test;
@@ -10,7 +10,7 @@ public class ManualChangeItemPositionInDropdownTest {
     @Story("")
     @Owner("Vadym Los")
     @Manual()
-    @Tag("DROPDOWN FILED")
+    @Tag("DROPDOWN FIELD")
     @Test(description = "Item of dropdown fillable field change position after dra&drop")
     @AllureId("2005")
     public static void user_can_change_position_of_item() {

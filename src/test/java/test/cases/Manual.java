@@ -1,4 +1,4 @@
-package Tests;
+package test.cases;
 
 public @interface Manual {
 }

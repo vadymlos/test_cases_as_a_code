@@ -7,7 +7,7 @@
 
     <test name="'test-case-as-a-code suite' tests">
         <classes>
-            <class name="Tests.ManualChangeColorOfFieldAfterClickTest"/>
+            <class name="test.cases.ManualChangeColorOfFieldAfterClickTest"/>
         </classes>
     </test>
 </suite>
