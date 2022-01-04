@@ -1,7 +1,10 @@
-package test.cases;
+package test.cases.fields.list;
 
 import io.qameta.allure.*;
 import org.testng.annotations.Test;
+import test.cases.Component;
+import test.cases.Manual;
+import test.cases.Tag;
 
 public class ManualChangeColorOfFieldAfterClickTest {
     @Feature("Fillable fields")
