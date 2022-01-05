@@ -8,5 +8,5 @@ target
 .idea/**/uiDesigner.xml
 .idea/**/vcs.xml
 .idea/**/workspace.xml
-test-cases-as-a-code.iml
+test-case-as-a-code.iml
 allure-results
