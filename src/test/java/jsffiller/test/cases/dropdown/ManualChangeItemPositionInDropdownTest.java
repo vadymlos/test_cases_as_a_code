@@ -1,5 +1,8 @@
-package test.cases;
+package jsffiller.test.cases.dropdown;
 
+import annotation.Component;
+import annotation.Manual;
+import annotation.Tag;
 import io.qameta.allure.*;
 import org.testng.annotations.Test;
 

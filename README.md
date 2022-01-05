@@ -9,7 +9,7 @@ Open the browser and search for Download JDK 17.
 2. Click the Next Button to initiate the installation process. The next screen shows options to change the installation path. We can change the installation location on this screen if required.
 3. Now click the Next Button to start the installation. It will show the progress.
 4. It shows the success screen after completing the installation.
-![image Arch-Test](./assets/images/succes_screen_jdk.png)
+![image Arch-Test](./assets/images/succes_screen_jdk1.jpg)
 5. Now open the Command Prompt and type the command java -version to confirm whether it's installed successfully.
 ![image Arch-Test](./assets/images/command_prompt.png)
 6. It might show the message - java is not recognized as an internal or external command or show the previously installed version. In order to start using the JDK installed by us from the command prompt, we might be required to set the environment variable. You can follow the below-mentioned steps to do so.

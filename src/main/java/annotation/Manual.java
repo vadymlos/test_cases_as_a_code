@@ -1,4 +1,4 @@
-package test.cases;
+package annotation;
 
 public @interface Manual {
 }
