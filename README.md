@@ -151,9 +151,11 @@ If you clone with SSH, you must generate SSH keys on each computer you use to pu
 1. Create project.
 
 ![image Arch-Test](./assets/images/create_idea_project.png)
+
 2. Choose maven, java version 17 and click next.
 
 ![image Arch-Test](./assets/images/maven_proj.png)
+
 3. Enter name of the project and click button 'Finish'.
 
 ![image Arch-Test](./assets/images/finish_project.png)
