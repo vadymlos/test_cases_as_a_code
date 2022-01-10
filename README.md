@@ -213,7 +213,8 @@ This authentication token will be used by Jenkins to authenticate in Allure Test
 
 1. Open launches in JSFiller project.
 2. Click on your previous uploaded result.
-3. Click on your test and see details.
+3. Click 'Close launch'(for creating test case).
+4. Click on your test and see details.
 
 ![image Arch-Test](./assets/images/test_case_from_code.png)
 
